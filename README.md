@@ -6,8 +6,11 @@ This webapp will be created for the Capital One software summit.   I was under t
 What It Does: 
      NewsFlash is a text summarization web app that takes in either a URL or keywords relating to a news article and then summarizes the news the linked article.  It provides the following:
 	*Information and context about the author of the article (by searching for the author's biography and then providing a summarized version along with the article summary)
+	
 	*Relevant links to Wikipedia, based on important keywords in the article; users can click these link and go directly to the wikipedia page of the keyword to learn more
+	
 	*Provides related news articles, based on important keywords in the article (note that this is a bonus objective that I created). Users can either link directly  to these sites, or copy and paste the article text into the search bar for a summarization of the articles.
+	
 	 *Allows users to "crawl" thrugh related news articles by clicking on the news article links at the side.  The article clicked is automatically summarized, author's wikipedia page located, keywords extracted, etc.  New articles are then available on the sidebar for users to click again, repeating the process ad infinitum (a sort of Wikipedia game for the news).
 
 How it does it:
