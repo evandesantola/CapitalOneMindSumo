@@ -1,0 +1,12 @@
+body {
+  background-color: #167ACE !important;
+}
+.im-centered { margin: auto; max-width: 300px;}
+
+
+.newspaperBlurbs {
+
+.hero {
+  background-color: #DDDDDD !important;
+  padding: 0 45px;
+}

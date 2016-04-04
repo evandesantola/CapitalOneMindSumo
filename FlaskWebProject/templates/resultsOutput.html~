@@ -1,0 +1,52 @@
+<!-- Modified from code found on tuturialspoint.  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Evan DeSantola MindSumo Text Summarizer</title>
+</head>
+<body>
+<body bgcolor="#b5dcb3">
+<center>
+		<h1>NewsFlash Text Summarizer</h1>
+		<h3>Make another search:</h3>
+		<form action="/download/regularSearch" method= "post" enctype="multipart/form-data" id ="MYO">
+		<input type="text" name="thefile" />
+				<input type="submit"/>
+		</form>
+		<br>
+<hr>
+		<h3>Article being summarized: </h3><h3>This Is Not a Test! - Wikipedia, the free encyclopedia</h3> 
+ Rob Sheffield of Rolling Stone gave the album four out of five stars, saying, "Why anybody would choose to spend their life without a copy of This Is Not a Test! "Missy Elliott: This Is Not a Test". "Missy Elliott: This Is Not A Test! It has sold 705,000 copies in the United States and has been certified Platinum by the Recording Industry Association of America (RIAA). "Elliott, Missy : This Is Not A Test! "Missy Elliott: This Is Not A Test". "Missy Elliott: This Is Not A Test Review". "This Is Not a Test! "This Is Not a Test!
+</center>
+
+		<br>
+
+<table width="100%" border="1">
+  <tr valign="top">
+    <td bgcolor="#aaa" width="33%" border= "1">
+      <b>About the content:</b><br /><br>
+      <a href="https://en.wikipedia.org/wiki/Missy_Elliott">Missy Elliott</a><br /><br>
+      <a href="https://en.wikipedia.org/wiki/Rob_Sheffield">Rob Sheffield</a><br /><br>
+      <a href="https://en.wikipedia.org/wiki/John_Bush_(musician)">John Bush (musician)</a><br /><br>
+      <a href="https://en.wikipedia.org/wiki/United_States">United States</a><br /><br>
+      <a href=" "></a>
+    </td>
+    <td bgcolor="#b5dcb3" height="250" width="33%" border = "1">
+      <b>Related News Articles:</b><br /><br>
+
+      <a href="/download/0">https://en.wikipedia.org/wiki/Miss_E..._So_Addictive</a><br /><br>
+      <a href="/download/1">http://www.barnesandnoble.com/w/this-is-not-a-test-missy-elliott/8120029?ean=75596290524</a><br /><br>
+      <a href="/download/2">https://store.kobobooks.com/en-us/ebook/love-is-a-mix-tape</a><br /><br>
+      <a href="/download/3">http://www.upi.com/?StoryID=20060522-101753-8848r</a><br /><br>
+      <a href="/download/4">http://content.usatoday.com/community/tags/topic.aspx?req=tag&pg=14&tag=R.%20Kelly</a>
+
+    </td>
+    <td bgcolor="#aaa" width="34%" border = "1">
+      <b>About the author, :</b><br /><br>
+        Nisbet, who has written on science communication,[2] has defined a "knowledge journalist" as a public intellectual who, like Walter Lippmann, David Brooks, Fareed Zakaria, Naomi Klein, Michael Pollan, Thomas Friedman, and Andrew Revkin, sees their role as researching complicated issues of fact or science which most laymen would not have the time or access to information to research themselves, then communicating an accurate and understandable version to the public as a teacher and policy advisor. This has become more prevalent with the advent of social media and blogs, as well as other platforms that are used to manipulate or sway social and political opinions and policies. As of November 2011, the Committee to Protect Journalists reports that 887 journalists have been killed worldwide since 1992 by murder (71%), crossfire or combat (17%), or on dangerous assignment (11%).
+    </td>
+   </tr>
+<table>
+</body>
+</html>

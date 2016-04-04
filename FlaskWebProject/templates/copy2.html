@@ -1,0 +1,71 @@
+<!-- Modified from code found on tuturialspoint.  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="/static/content/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/static/content/bootstrap-responsive.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/static/scripts/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Evan DeSantola MindSumo Text Summarizer</title>
+</head>
+<body>
+        <body background="/static/content/backgroundColor.png">
+<center>
+
+
+<p class="text-center"><font color="white">TLDR</font></p>
+
+
+<form action="/download/regularSearch" method= "post" enctype="multipart/form-data" id ="MYO">
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+
+      <input type="text" class="form-control" name="thefile" placeholder="Enter either news article URL or searchterms">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">Summarize!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+
+		<br>
+<hr>
+		<h3>Article being summarized: </h3><h3>TITLE_GOES_HERE</h3> 
+SUMMARY_RESULTS_GO_HERE
+</center>
+
+		<br>
+
+<table width="100%" border="4">
+  <tr valign="top">
+    <td bgcolor="#ffffff" width="33%" border= "4">
+      <b>About the content:</b><br /><br>
+      <a href="INFO_LINK1">INF_LINK_NAME1</a><br /><br>
+      <a href="INFO_LINK2">INF_LINK_NAME2</a><br /><br>
+      <a href="INFO_LINK3">INF_LINK_NAME3</a><br /><br>
+      <a href="INFO_LINK4">INF_LINK_NAME4</a><br /><br>
+      <a href="INFO_LINK5">INF_LINK_NAME5</a>
+    </td>
+    <td bgcolor="#ffffff" height="250" width="33%" border = "4">
+      <b>Related News Articles:</b><br /><br>
+
+      <a href="1db874ca-f3d8-11e5-9ce9-5e5517507c66">NEWS_LINK1</a><br /><br>
+      <a href="1db87902-f3d8-11e5-9ce9-5e5517507c66">NEWS_LINK2</a><br /><br>
+      <a href="1db87aec-f3d8-11e5-9ce9-5e5517507c66">NEWS_LINK3</a><br /><br>
+      <a href="1db87dbc-f3d8-11e5-9ce9-5e5517507c66">NEWS_LINK4</a><br /><br>
+      <a href="1db87f42-f3d8-11e5-9ce9-5e5517507c66">NEWS_LINK5</a>
+
+    </td>
+    <td bgcolor="#aaa" width="34%" border = "1">
+      <b>About the author:</b><br /><br>
+       AUTHOR_INFO
+    </td>
+   </tr>
+<table>
+</body>
+</html>

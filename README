@@ -1,0 +1,26 @@
+Capital One MindSumo Submission
+
+Foreword:
+
+This webapp was created for the Capital One software summit. I am under time constraints this week due to classes, homework, internship applications, research, other software challenges, and a video lecture series I have been asked to produce. As such, I could only spend 4 hours on this. To make a product quickly, sacrifices in the quality of the design, and I had to recycle some code I wrote at hackathons and use APIs for search and some NLP. I hope the judges note that this product will not be representative of the typical quality of work I usually produce, and is instead representative of my ability to churn out a functional product when under time constraints.  
+
+What It Does: 
+     NewsFlash is a text summarization web app that takes in a given URL and summarizes the news.  It then provides the following:
+	*Information and context about the author of the article (by searching for the author's biography and then providing a summarized version along with the article summary)
+	*Relevant links to Wikipedia, based on important keywords in the article 
+	*Provides related news articles, based on important keywords in the article (note that this is a bonus objective that I created). Users can either link directly  to these sites, or copy and paste the article text into the search bar for a summarization of the articles.
+      
+
+How it does it:
+    Newsflash is powered by flask, a python microframework. NewsFlash takes in a URL, and then uses Alchemy API to extract the body of the article, the author, keywords and article title.  The text is then summarized with a common text summarization algorithm I implemented (see helperFunctions.py) during BostonHacks. I then used Bing API to gather relevant links to wikipedia about the keywords in the article, as well as a link to the author's wikipedia page (if it exists) and other related news articles.  The author's wikipedia page is summarized and placed below the summary of the article.
+
+
+Challenges I encountered: 
+     I am primarily a backend programmer, with an interest in healthcare informatics and machine learning.  As such, I do not have extensive experience in front end.  Because I was under time constraints (see the foreword), I didn't have the time to complete a flashy front end design.  
+     Another challenge I encountered was that I originally intended to use Alchemy API to grab related and recent news articles.  However, I quickly found that these articles would not be the same articles that consumers might be interested.  While the related articles provided by the API might be interesting if I was doing a an NLP or other project that required large corpuses of related and time sensitive articles, many of them came from extremely obscure sources, and most contained information irrelavent to the original article (although they shared some common keywords).  As such, I used Bing API to grab relevant news articles, wikipedia articles and information about the author.
+    My final and greatest challenge was time. I am under extreme time constraints during this time of the year, as mentioned above in the forward.  As such, I am unable to spend the time to create a nice, polished product as I normally would be able to do during a hackathon.  To that I am not lying about my ability  to create quality products when given more time, please refer to my research or my hackathon track record.  I have gone to three hackathons: BostonHacks, PennApps and HackIllinois, and have done well at them all.  You can out my first place winning submission for BostonHacks, my first place winning submission for  HackIllinois (as well as Best Microsoft Hack and Best Use of Azure), and my Best Health Hack winning PennApps submission at my devpost, http://devpost.com/edesanto
+
+Installation:
+     
+
+

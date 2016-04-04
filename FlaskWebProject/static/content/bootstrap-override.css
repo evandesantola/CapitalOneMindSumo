@@ -1,0 +1,15 @@
+body {
+  background-color: #167ACE !important;
+}
+.im-centered { margin: auto; max-width: 300px;}
+
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+

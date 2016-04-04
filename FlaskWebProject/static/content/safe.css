@@ -1,0 +1,78 @@
+#wrapper {
+	margin: 20px auto;
+	text-align: left;
+	width: 500px;
+        background-color: #0097A7;
+        color: #FFFFFF;
+    
+    .jumbotron{
+    main{
+        color: #212121;
+    }
+    style-4 input[type="text"] {
+      padding: 10px;
+      border: none;
+      border-bottom: solid 2px #c9c9c9;
+      transition: border 0.3s;
+    }
+    .style-4 input[type="text"]:focus,
+    .style-4 input[type="text"].focus {
+      border-bottom: solid 2px #969696;
+    }
+
+	}
+
+body {
+	text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+
+.button {
+    
+
+        background-color: #FFC107;
+        border: none;
+        color: #727272;
+
+
+
+	color: white;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+input[type=file] {
+	font-size: 13px;
+}
+
+input[type=submit] {
+	padding:5px; 
+	font-size: 13px;
+	text-align: left;
+}
+
+

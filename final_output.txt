@@ -1,0 +1,1 @@
+Hand-Gesture Result: 0.981109799292\nSpeech Input Result: 0.448608398437\nHandwriting Sample Result: 0.929318800026\n \nOur Prediction: You may check with doctor for Parkinson's disease

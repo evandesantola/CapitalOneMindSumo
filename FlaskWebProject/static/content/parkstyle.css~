@@ -1,0 +1,71 @@
+#wrapper {
+	margin: 20px auto;
+	text-align: left;
+	max-width: 500px;
+        background-color: #CD5C5C;
+        color: #FFFFFF;
+    
+}
+body {
+	text-align: center;
+        background-color: #CD5C5C;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+
+.button {
+    
+
+        background-color: #FFC107;
+        border: none;
+        color: #727272;
+
+
+
+	color: white;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+input[type=file] {
+	font-size: 13px;
+}
+
+input[type=submit] {
+	padding:5px; 
+	font-size: 13px;
+	text-align: left;
+}
+
+
