@@ -25,3 +25,5 @@ Challenges I encountered:
      
     My final and greatest challenge was time. I am under extreme time constraints during this time of the year, as mentioned above in the forward.  As such, I am unable to spend the time to create a nice, polished product as I normally would be able to do during a hackathon, where more time is available.  If you wish, you can check out my first place winning submission for BostonHacks, my first place winning submission for HackIllinois (as well as Best Microsoft Hack and Best Use of Azure), and my Best Health Hack winning PennApps submission at my devpost, http://devpost.com/edesanto
 
+
+
